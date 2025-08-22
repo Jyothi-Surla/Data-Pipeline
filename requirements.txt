@@ -1,6 +1,16 @@
-numpy==2.2.6
-pandas==2.3.1
-python-dateutil==2.9.0.post0
-pytz==2025.2
-six==1.17.0
-tzdata==2025.2
+# Core data libraries
+pandas>=2.0
+numpy>=1.26
+python-dateutil>=2.9
+pytz>=2023.3
+tzdata>=2023.3
+six>=1.16
+
+# Database (PostgreSQL)
+psycopg2-binary>=2.9
+
+# Real-time file monitoring
+watchdog>=4.0
+
+# Retry mechanism
+tenacity>=8.2
