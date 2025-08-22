@@ -1,0 +1,19 @@
+data/
+logs/
+quarantine/
+backup/
+failed/
+myenv/
+*.csv
+*.pyc
+__pycache__/
+Data_Pipeline-Task/
+Data_Pipeline-Task.zip
+pipelinevenv/
+check_file.py
+clean_csv.py
+pipeline.py
+schema.sql-1.sql
+split_dataset.py
+test_pipeline.py
+Backup-partition table
